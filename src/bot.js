@@ -20,7 +20,7 @@ client.on("ready", () => {
 });
 
 client.on("guildMemberAdd", (member) => {
-    member.guild.channels.cache.get(process.env.WELCOME).send(`<@${member.id} Welcome to the server!`)
+    member.guild.channels.cache.get(process.env.WELCOME).send(`Welcome to the server, <@${member.id}>! Please be sure to read the <#705231752771403778> to understand how we expect members to behave in this server, and then the <#886389510731104316> for important information on axolotl care!`)
 });
 
 // Grub pie, pet only
